@@ -2,7 +2,11 @@ import cv2
 # Importando Librerías.
 
 face_cascade = cv2.CascadeClassifier('./raw/haarcascade_frontalface_default.xml')
-# Guardamos en una variable nuestra Haarcascade
+# Guardamos en una variable nuestra Haarcascade # Yo dejaré la versión por default.
+
+# face_cascade = cv2.CascadeClassifier('./raw/haarcascade_frontalcatface_extended.xml')
+# Probamos la versión extendida, o por default. Depende de como se comporte tu programa.
+
 
 cap = cv2.VideoCapture(0)
 # Hacemos referencia de nuestra web-cam. Canal de referencia 0.
