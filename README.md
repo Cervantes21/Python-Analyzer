@@ -29,8 +29,9 @@ pip install -r requirements.txt
 ## Start the App:
 
 
-:::python3 main.py:::
-
+```
+python3 main.py
+```
 
 --- 
 
