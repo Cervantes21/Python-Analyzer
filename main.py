@@ -32,5 +32,5 @@ while True:
     if k == 27: # 27 es el ascii para Esc
         break
 cap.release()
-# Para salir del programa y cerrar la cámra web.
+# Para salir del programa y cerrar la cámara web.
 
