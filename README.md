@@ -10,27 +10,27 @@ Face Analyzer. It recognizes faces shown on camera, analyzing features and color
 
 **For linux, or WSL2 WINDOWS**
 
-´´´
+```
 python3 -m venv venv 
-´´´
+```
 * Activate Virtual Environment:
 
-´´´
+```
 source venv/bin/activate
-´´´
+```
 * Install Requirements via PIP:
 
-´´´
+```
 pip install -r requirements.txt
-´´´
+```
 
 ---
 
 ## Start the App:
 
-´´´
-python3 main.py
-´´´
+
+:::python3 main.py:::
+
 
 --- 
 
