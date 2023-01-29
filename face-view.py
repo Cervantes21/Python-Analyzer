@@ -16,6 +16,9 @@ while True:
     _, img = cap.read()
 # Con la función cap.read() para leer cada uno de los fotogramas del vídeo.
 
+    img = cv2.flip(img,1)
+    # Aplicamos un efecto espejo.
+    
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 # Convertimos los fotogramas a escala de grises.
 

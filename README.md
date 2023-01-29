@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 
 ```
-python3 main.py
+python3 face-view.py
 ```
 
 --- 
