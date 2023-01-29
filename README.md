@@ -1,6 +1,7 @@
 # **Face Analyzer**
 Face Analyzer. It recognizes faces shown on camera, analyzing features and coloring a box when it has detected a face. This program was made with [OpenCV](https://docs.opencv.org/4.x/)
 
+[![example-img](https://pbs.twimg.com/media/FnmrU-MWAAEjm8U?format=jpg&name=large)](https://twitter.com/AndyDollin21)
 ---
 
 ## First Steps:
@@ -35,4 +36,4 @@ python3 main.py
 
 ## PROBLEMS?
 
-> If you have issues, please init issues with all detail for examine. Thanks.
+> If you have issues, please init [issues](https://github.com/Cervantes21/Face-Analyzer/issues) with all detail for examine. Thanks.
