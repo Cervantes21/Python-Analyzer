@@ -29,7 +29,7 @@ while True:
 # '''
     for (x, y, w, h) in faces:
 # (x,y,w,h) son los vertices del cuadrado.
-        cv2.rectangle(img,(x,y),(x+w,y+h), (255,0,0),2)
+        cv2.rectangle(img,(x,y),(x+w,y+h), (0,255,0),2)
 # Luego con la función cv2.rectangle() pintaremos ese cuadro encima de las caras. (255,0,0) se refiere al color del cuadro y el 2 al grosor de la línea.
     cv2.imshow('img', img)
     # Utilizamos esta función para mostrar el fotograma ya modificado y con la cara detectada.
