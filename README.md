@@ -6,6 +6,8 @@
 
 This program cannot run on linux subsystem terminals, such as WSL2, or WSL. It can be done, but it's many more complicated steps. I leave more information obtained in [Stackoverflow](https://stackoverflow.com/questions/65939167/problem-using-opencv-in-wsl-when-opening-windows) in case you want to try.
 
+* **More important: You need version Python < Python3.10 and > Python3.7**
+
 ---
 <details><summary>FACE DETECTOR APP: 🧔</summary>
 
